@@ -75,7 +75,7 @@ The [Privtc_eps.py](https://github.com/Lonelypheonix/PrivTC-Implementation/blob/
 
 ## Note:
 If you are using google collab then use 
-```python
+```
 %run Privtc.py
 ```
 This is used to display the graph in Inline mode.
