@@ -36,7 +36,7 @@ def load_dataset(txt_dataset_path=None):
     return user_record
 
 def sys_test(epsilon_values):
-    txt_dataset_path = "/content/privtc/txt_dataset/test_dataset_users_5000_tralen_6.txt" #change dataset location if any error 
+    txt_dataset_path = "/content/PrivTC-Implementation/Dataset/test_dataset_users_5000_tralen_6.txt" #change dataset location if any error 
     args = para.generate_args()  # define the parameters
     setup_args(args=args)  # set the parameters
     user_record = load_dataset(txt_dataset_path=txt_dataset_path)  # read user data
